@@ -4,7 +4,7 @@ public class CustomerRepository:Repository
 {
     public CustomerRepository()
     {
-        items = new List<IRepoItem>();
+        items = new List<IRepoItem?>();
         Update(new Customer(1,"Reuben","puntkroos 41"));
         Update(new Customer(2,"Julian","Harderwijkerweg"));
         Update(new Customer(3,"Wouter","Random straat"));
