@@ -73,7 +73,7 @@ public class BankController
 
     public void ValidCardMenu()
     {
-        Console.WriteLine($"Welkom {CurrentAccount.Name} - rekeningnummer {CurrentAccount.Id}\n" +
+        Console.WriteLine($"Welkom {CurrentAccount.Name} - rekeningnummer {CurrentAccount.AccountNumber}\n" +
                           "Kies 1, 2 of 3 uit het volgende menu:\n" +
                           "1.\tSaldo opvragen\n" +
                           "2.\tGeld opnemen\n" +
