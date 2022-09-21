@@ -11,7 +11,7 @@ public class Card:IRepoItem
 
     public Card() {}
 
-    public Card(int id, string? name, string? accountNumber, string? code)
+    public Card(int id, string? name, string? accountNumber, string? code): this()
     {
         Id = id;
         Name = name;

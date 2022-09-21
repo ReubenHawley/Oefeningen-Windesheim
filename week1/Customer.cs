@@ -10,7 +10,7 @@ public class Customer: IRepoItem
 
     public Customer() {}
 
-    public Customer(int id, string? name, string adres)
+    public Customer(int id, string? name, string adres): this()
     {
         Id = id;
         Name = name;

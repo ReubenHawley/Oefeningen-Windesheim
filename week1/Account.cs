@@ -12,7 +12,7 @@ public class Account:IRepoItem
 
     public Account() {}
 
-    public Account(int id, string? name, int customerId, double balance, string? accountNumber)
+    public Account(int id, string? name, int customerId, double balance, string? accountNumber): this()
     {
         Id = id;
         Name = name;
