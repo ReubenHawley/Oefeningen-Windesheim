@@ -113,7 +113,7 @@ public class BankController
         if (withdrawalAmountString != "")
         {
             var withdrawalAmount= Convert.ToUInt16(withdrawalAmountString);
-            CurrentAccount.Balance -= withdrawalAmount;
+            CurrentAccount?.Credit(withdrawalAmount);
             Process();
         }
         else
@@ -130,7 +130,7 @@ public class BankController
 
     public String ShowWithdrawalMenu()
     {
-        return "";
+        return Console.ReadLine();
     }
 
     public override string ToString()

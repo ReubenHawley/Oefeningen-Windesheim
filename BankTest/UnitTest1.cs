@@ -1,15 +1,16 @@
+using week1.Models;
+using NUnit.Framework;
 namespace BankTest;
 
 public class Tests
 {
-    [SetUp]
-    public void Setup()
-    {
-    }
+
 
     [Test]
     public void Test1()
     {
-        Assert.Pass();
+        Account account1 = new Account(1,"Reuben",1,1000,"NL12ING8267890");
+
+        Assert.That("Reuben", Is.EqualTo(account1.Name));
     }
 }
