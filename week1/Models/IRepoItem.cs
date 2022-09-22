@@ -1,4 +1,4 @@
-﻿namespace week1;
+﻿namespace week1.Models;
 
 public interface IRepoItem
 {

@@ -1,4 +1,6 @@
-﻿namespace week1;
+﻿using week1.Models;
+
+namespace week1.Controller;
 
 public class BankController
 {

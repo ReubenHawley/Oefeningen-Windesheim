@@ -1,7 +1,4 @@
-﻿using System.Data;
-using System.Dynamic;
-
-namespace week1;
+﻿namespace week1.Models;
 
 public abstract class Repository
 {

@@ -1,6 +1,4 @@
-﻿using System.Text;
-
-namespace week1;
+﻿namespace week1.Models;
 
 public class Card:IRepoItem
 {

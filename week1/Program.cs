@@ -2,6 +2,7 @@
 
 
 using week1;
+using week1.Controller;
 
 //entry point for program
 BankController bank = new BankController();
